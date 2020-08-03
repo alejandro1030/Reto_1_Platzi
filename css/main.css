@@ -79,3 +79,16 @@ header {
     transform: translateY(4%);
     margin: 0px 25px;
 }
+
+.main__section2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.main__section2 .main__section2__panel {
+    width: 65%;
+    height: 300px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
