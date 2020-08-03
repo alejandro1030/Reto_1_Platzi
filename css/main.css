@@ -175,6 +175,11 @@ header {
     outline: none;
 }
 
+.main__section1__container__data--textbox:hover {
+    box-shadow: 1px 8px 20px -1px #d0d2d8;
+    border: 1px solid #d0d2d8;
+}
+
 .main__section1__container__data .main__section1__container__data--button {
     width: 210px;
     height: 40px;
