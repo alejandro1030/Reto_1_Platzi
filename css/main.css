@@ -61,6 +61,12 @@ header {
     color: #1F2D46;
 }
 
+.header__left .social-icons::before {
+    background-color: #F3F4F5;
+    border-radius: 50%;
+    padding: 6px;
+}
+
 .header__right__options {
     font-family: var(--type-font);
     font-weight: 500;
@@ -86,4 +92,99 @@ header {
     height: 35px;
     transform: translateY(5%);
     margin: 0px 25px;
+}
+
+.main {
+    font-family: var(--type-font);
+}
+
+.main__section1 {
+    display: flex;
+    text-align: left;
+    width: 50%;
+    justify-content: center;
+}
+
+.main__section1__container {
+    width: 85%;
+    margin: 25px 0px;
+}
+
+.main__section1__container #button {
+    background-color: #F2E9FF;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #812DFF;
+}
+
+.main__section1__container h1 img {
+    width: 90px;
+    margin: 0px;
+    padding:0px;
+    transform: translateY(30%);
+}
+
+.main__section1__container h1 {
+    color: #1F2D46;
+    font-weight: 900;
+    font-size: 3.7em;
+    line-height: 1.2em;
+    margin: 0.13em 0px;
+}
+
+.main__section1__container h1 #otherColor {
+    color: #1160E8;
+}
+
+.main__section1__container p {
+    color: #68758E;
+    font-weight: 500;
+}
+
+.main__section1__container__data {
+    display: flex;
+    margin-top: 9px;
+}
+
+.main__section1__container__data--textbox {
+    width: 210px;
+    border-radius: 6px;
+    border: 1px solid #ECEFF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.main__section1__container__data--textbox .icon-flag {
+    background-image: url('https://img.icons8.com/color/16/000000/colombia.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.main__section1__container__data--textbox input {
+    width: 165px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.main__section1__container__data .main__section1__container__data--button {
+    width: 210px;
+    height: 40px;
+    color: #F8FAFE;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: #1160E8;
+    margin-left: 8px;
+    box-shadow: 1px 9px 40px -8px #1160E8;
+    cursor: pointer;
 }
