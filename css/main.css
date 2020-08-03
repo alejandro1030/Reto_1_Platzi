@@ -193,3 +193,16 @@ header {
     box-shadow: 1px 9px 40px -8px #1160E8;
     cursor: pointer;
 }
+
+.main__section2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.main__section2 .main__section2__panel {
+    width: 65%;
+    height: 300px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
