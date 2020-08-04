@@ -96,6 +96,8 @@ header {
 
 .main {
     font-family: var(--type-font);
+    display: flex;
+    height: 80%;
 }
 
 .main__section1 {
@@ -201,8 +203,8 @@ header {
 }
 
 .main__section2 .main__section2__panel {
-    width: 65%;
-    height: 300px;
-    border-radius: 4px;
+    margin: 30px 0px;
+    width: 58%;
+    border-radius: 5px;
     background-color: #FFFFFF;
 }
