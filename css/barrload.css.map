@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,+BAAgC;EAC5B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI",
+"sources": ["../sass/barrload.scss"],
+"names": [],
+"file": "barrload.css"
+}
